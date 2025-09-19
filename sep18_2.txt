@@ -1,0 +1,48 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. Minden jog fenntartva.
+
+C:\Users\diak>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::588c:1514:9b1c:ee96%26
+   IPv4 Address. . . . . . . . . . . : 172.27.64.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : kulker.lan
+   IPv4 Address. . . . . . . . . . . : 172.16.16.4
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 172.16.16.254
+
+C:\Users\diak>ping 172.16.16.136
+
+Pinging 172.16.16.136 with 32 bytes of data:
+Reply from 172.16.16.136: bytes=32 time<1ms TTL=128
+Reply from 172.16.16.136: bytes=32 time<1ms TTL=128
+Reply from 172.16.16.136: bytes=32 time<1ms TTL=128
+Reply from 172.16.16.136: bytes=32 time<1ms TTL=128
+
+Ping statistics for 172.16.16.136:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\diak>ping 127.0.0.1
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

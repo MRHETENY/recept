@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* Helyes útvonal, mivel a kép ugyanabban a mappában van */
+    background: url('logo2.jpg');
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 800px;
+    width: 95%;
+    margin:0 auto;
+    background-color: antiquewhite;
+}
+.header{
+    /* Helyes útvonal, mivel a kép ugyanabban a mappában van */
+    background: url('logo3.jpg');
+    height: 300px;
+    position: relative;
+}
+.menu{
+    /* A lila háttérszín most helyes formátumban van */
+    background-color: rgb(62, 15, 77);
+    /* A position értéke is helyes */
+    position: static;
+}
+ul::after{
+    list-style: none;
+}
+li
+{
+    float:left;
+}
+a{
+    text-decoration: none;
+}
