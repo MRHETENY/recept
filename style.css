@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* A Google Fonts linkje most a fájl legelső sorában van. */
+
 *{
     box-sizing: border-box;
 }
 
 body{
-    /* Helyes útvonal, mivel a kép ugyanabban a mappában van */
+    /* Helyes útvonal, mivel a kép ugyanabban a mappában van, mint a style.css */
     background: url('logo2.jpg');
     font-family: 'Roboto', sans-serif;
 }
